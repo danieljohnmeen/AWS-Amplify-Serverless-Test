@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mosatest-dev-81715-authRole",
+      "UnauthRoleArn": "arn:aws:iam::461906705179:role/amplify-mosatest-dev-81715-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::461906705179:role/amplify-mosatest-dev-81715-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-mosatest-dev-81715-deployment",
+      "UnauthRoleName": "amplify-mosatest-dev-81715-unauthRole",
+      "StackName": "amplify-mosatest-dev-81715",
+      "StackId": "arn:aws:cloudformation:us-west-1:461906705179:stack/amplify-mosatest-dev-81715/e5d094c0-c976-11ee-a727-0201373eee25",
+      "AmplifyAppId": "d7wdh814q7fu3",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-mosatest-dev-81715-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "Auth": {
+          "deploymentBucketName": "amplify-mosatest-dev-81715-deployment",
+          "s3Key": "amplify-builds/Auth-4a5136474f3064316d33-build.zip"
+        },
+        "RacksCRUD": {
+          "deploymentBucketName": "amplify-mosatest-dev-81715-deployment",
+          "s3Key": "amplify-builds/RacksCRUD-6e2b5a775156726a444a-build.zip"
+        }
+      },
+      "api": {
+        "Auth": {},
+        "RacksCRUD": {}
+      },
+      "auth": {
+        "mosatest": {}
+      },
+      "storage": {
+        "Racks": {}
+      }
+    }
+  }
+}

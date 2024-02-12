@@ -1,0 +1,10 @@
+{
+  "resourceName": "Racks",
+  "tableName": "Racks",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
